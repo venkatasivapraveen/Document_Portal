@@ -51,7 +51,7 @@ class SingleDocIngestor:
 
     def _create_retriever(self,documents):
         try:
-            splitter = REcursiveCharacterTExtSplitter(chunck_size=1000, chunk_overlap=300)
+            splitter = RecursiveCharacterTextSplitter(chunck_size=1000, chunk_overlap=300)
             chunks = splitter = splitter_documents(documents)
             self.log.info("Documents split into chunks", count=len(chunks))
 
