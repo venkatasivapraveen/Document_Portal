@@ -4,7 +4,7 @@ import sys
 import uuid
 from datetime import datetime
 from logger.custom_logger import CustomLogger
-from exception.custom_exception import DocumentPortalException
+from exception.custom_exception_archive import DocumentPortalException
 
 class DocumentHandler:
     """
