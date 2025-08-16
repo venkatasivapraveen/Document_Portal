@@ -2,6 +2,7 @@ README.md
 setup.py
 exception/__init__.py
 exception/custom_exception.py
+exception/custom_exception_archive.py
 first_document.egg-info/PKG-INFO
 first_document.egg-info/SOURCES.txt
 first_document.egg-info/dependency_links.txt
